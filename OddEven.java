@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 public class OddEven{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
@@ -8,5 +8,6 @@ public class OddEven{
         }else{
             System.out.println("ODD");
         }
+        sc.close();
     }
 }
